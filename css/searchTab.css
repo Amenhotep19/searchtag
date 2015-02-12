@@ -1,0 +1,53 @@
+/* Put your css in here */
+
+#searchtagmain .selectElements {
+  background-color: #f2f2f2;
+  position:absolute;
+  top: 100%;
+  width: 100%;
+}
+
+#searchtagmain .selectElements p {
+  margin: 0px;
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#searchtagmain .selectElements p:hover {
+  background-color: #ccc;
+  cursor:pointer;
+}
+
+#searchtagmain #searchtaginput {
+  width: 100%;
+  border: 0;
+  box-shadow: none !important;
+  height: 34px;
+}
+
+#searchtagmain #searchtaginput:focus {
+  box-shadow: none !important;
+  border: 0 !important;
+  outline:0px !important;
+  -webkit-appearance:none;
+}
+
+#searchtagmain .label-primary {
+  float: left;
+  margin-right: 5px;
+  border-radius: 0;
+  margin-top: 10px;
+}
+
+#searchtagmain .searchTagElements {
+  margin:0 auto;
+  padding:10px;
+}
+
+#searchtagmain .input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle{
+  border-radius: 3px;
+}
+
+.resultSearchField {
+  z-index: 9999999;
+}

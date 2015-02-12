@@ -1,0 +1,37 @@
+<html ng-app="MyAPP">
+<head>
+	<title>SearchTab Example</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/searchTab.css">
+</head>
+<body ng-controller="MainCtrl">
+
+	<div class="container">
+		<h3>{{hello}}</h3>
+		<hr />
+			<searchtag placeholder="search" btn-action="search"></searchtag>
+		<hr />
+			<b>Add item</b>
+		  <ol>
+		    <li>Type <b>"t"</b>, to filter items.</li>
+		    <li>Select one item.</li>
+		    <li>Type something.</li>
+		    <li>Type <b>,</b> (comma) to add.</li>
+		  </ol>
+		  
+		  <br>
+		  <b>Remove item</b>
+		  <ol>
+		    <li>Click on the tag to remove.</li>
+		    <li>Press backspace 2 times to remove the last item.</li>
+		  </ol>
+		  
+		  <br>
+		  <b>Callback:</b> {{list | json}}
+		<hr />
+	</div>
+</body>
+<script data-require="angular.js@1.2.x" src="https://code.angularjs.org/1.2.28/angular.js" data-semver="1.2.28"></script>
+<script src="src/searchtab.min.js"></script>
+<script src="src/app.js"></script>
+</html>
