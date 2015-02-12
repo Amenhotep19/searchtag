@@ -1,2 +1,2 @@
-# searchtab
+# searchtag
 Angular Module to Search
