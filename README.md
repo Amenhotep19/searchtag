@@ -14,6 +14,12 @@ Angular Module to Search
 * Press backspace 2 times to remove the last item.
 
 ## How to install
+
+    <searchtag placeholder="search" btn-action="search"></searchtag>
+
+* btn-action : button value
+* placeholder : placeholder
+
 var app = angular.module('MyAPP', ['SearchTag']);
 
 Your controller
