@@ -20,7 +20,9 @@ Angular Module to Search
 * btn-action : button value
 * placeholder : placeholder
 
-var app = angular.module('MyAPP', ['SearchTag']);
+Your angular module
+
+    var app = angular.module('MyAPP', ['SearchTag']);
 
 Your controller
 
