@@ -52,7 +52,7 @@ searchTabApp.directive('searchtag', function() {
     },
     template:
       '<div id="searchtagmain" style="position:relative">' +
-        '<div id="selectElements" ng-show="searchFilter"><div ng-repeat="elem in searchElements | filter:searchFilter"><p ng-click="addToModel(elem.name)">{{elem.name}}</p></div></div>' +
+        '<div class="selectElements" ng-show="searchFilter"><div ng-repeat="elem in searchElements | filter:searchFilter"><p ng-click="addToModel(elem.name)">{{elem.name}}</p></div></div>' +
           '<div class="input-group form-control">' + 
             '<div class="resultSearchField" ng-repeat="res in results"><span class="label label-primary" ng-click="removeFilteredItem($index)">{{res.name}}</span></div>' +
             '<input id="searchtaginput" ng-model="searchFilter"ng-keydown="removeTagOnBackspace($event)" type="text" class="" placeholder="{{holder}}" />' +
